@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: keycloak-auth-service
+
+server:
+  port: 6700
+  servlet:
+    context-path: /auth
+
+app:
+  keycloak:
+    admin:
+      clientId: admin-cli
+      clientSecret: OA1ZObH6G0rmqZeOTQT19mzrUCi325hg
+    realm: spring
+    serverUrl: http://localhost:9082
